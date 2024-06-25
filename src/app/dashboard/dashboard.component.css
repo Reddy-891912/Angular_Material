@@ -1,0 +1,29 @@
+.parent {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    /* background-color: rgba(128, 128, 128, 0.862); */
+}
+
+.left {
+    width: 20%;
+    height: 100%;
+    padding: 10px;
+    background-color: black;
+    color: blue;
+    text-align: center;
+    overflow: auto;
+
+}
+
+.right {
+    width: 80%;
+    height: 100%;
+    /* background-color: teal; */
+    overflow: auto;
+}
+
+.home{
+    cursor: pointer;
+    color: brown;
+}
